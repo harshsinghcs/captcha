@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#captcha-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+#captcha-text {
+    font-size: 24px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#user-input,
+#check-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#user-input {
+    width: 100px; /* Adjust width as needed */
+}
+
+#check-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: #45A049; /* Darker green on hover */
+}
+
+#message {
+    color: red;
+}
