@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image CAPTCHA with Split Image</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="captcha-card">
+        <div class="captcha-header">
+            Select the <strong>road signal</strong>
+        </div>
+        <div id="captcha-container" class="captcha-grid"></div>
+        <div class="captcha-footer">
+            <span class="icon" id="refresh-btn">🔄</span>
+            <span class="icon" id="voice-btn">🔊</span>
+            <div class="validation-message" id="validation-message"></div>
+            <button id="verify-btn">Verify</button>
+        </div>
+    </div>
+    <audio id="audio-instruction" src="" preload="auto"></audio>
+    <script src="split-captcha.js"></script>
+</body>
+</html>
